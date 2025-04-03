@@ -2,5 +2,7 @@
 </script>
 
 <template>
-    <NuxtWelcome />
+    <div>
+        <Header />
+    </div>
 </template>

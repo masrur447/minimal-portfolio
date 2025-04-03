@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: "bg-primary text-white antialiased",
+        class: "bg-primary font-sans font-base text-white antialiased",
       },
     },
   },

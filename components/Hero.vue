@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col items-center justify-center bg-primary text-white py-32 px-5">
+    <section class="flex flex-col items-center justify-center bg-primary text-white py-32 px-5" id="home">
         <p
             class="text-center text-[#E4ECFF] font-sans font-medium text-sm md:text-base/[120%] uppercase tracking-[4px] py-4">
             Dynamic Web Magic with Next.js

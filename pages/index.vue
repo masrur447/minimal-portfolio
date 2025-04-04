@@ -5,5 +5,6 @@
     <div>
         <Header />
         <Hero />
+        <Portfolio />
     </div>
 </template>

@@ -11,6 +11,9 @@ export default {
     "./content/**/*.svx",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         primary: "#000319",

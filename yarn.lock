@@ -408,6 +408,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.25.2.tgz#839f72c2decd378f86b8f525e1979a97b920c67d"
   integrity sha512-kM3HKb16VIXZyIeVrM1ygYmZBKybX8N4p754bw390wGO3Tf2j4L2/WYL+4suWujpgf6GBYs3jv7TyUivdd05JA==
 
+"@iconify-json/ph@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.2.2.tgz#eac734e80f4639df6ade990690a825540b4259c4"
+  integrity sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify/collections@^1.0.526":
   version "1.0.534"
   resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.534.tgz#0473fd193d32a2f33e3a9af01e00e9e64d1a589e"

@@ -17,7 +17,7 @@ const menus: Menu[] = [
     },
     {
         title: 'Testimonials',
-        href: '/testimonials'
+        href: '#'
     },
     {
         title: 'Contact',

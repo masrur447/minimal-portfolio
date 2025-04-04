@@ -1,12 +1,13 @@
 <template>
     <section class="bg-primary text-white p-4">
-        <div class="grid grid-cols-5 justify-items-center place-items-center gap-4">
-            <div class="col-span-3">
+        <div class="grid grid-cols-1 md:grid-cols-5 justify-items-center place-items-center gap-4">
+            <div class="md:col-span-3">
                 <div class="relative border border-primary rounded-lg overflow-hidden">
                     <img src="/bg/img-1.png" alt="project" class="w-full h-full object-cover rounded-lg" />
 
                     <!-- project title -->
-                    <h2 class="font-sans font-bold text-white text-4xl/10 absolute w-2/3 left-10 bottom-14 z-[2]">
+                    <h2
+                        class="font-sans font-bold text-white text-lg md:text-4xl/10 absolute w-2/3 left-10 bottom-14 z-[2]">
                         I prioritize client collaboration, fostering <br />
                         open communication
                     </h2>
@@ -17,9 +18,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-2 flex flex-col gap-y-4">
-                <div class="relative flex flex-col justify-center items-center h-full rounded-xl">
-                    <div class="w-[600px] bg-[url('/bg/box.png')] bg-cover bg-center bg-no-repeat z-[1] rounded-xl p-4">
+            <div class="md:col-span-2 flex flex-col gap-y-4">
+                <div class="relative flex flex-col justify-center items-center rounded-xl">
+                    <div
+                        class="w-full md:w-[600px] bg-[url('/bg/box.png')] bg-cover bg-center bg-no-repeat z-[1] rounded-xl p-4">
                         <div class="relative z-[2] h-full py-3">
                             <p class="font-sans font-bold text-3xl px-4 py-5 leading-snug tracking-wide">
                                 I’m very flexible with time <br />
@@ -52,7 +54,7 @@
             </div>
         </div>
         <!-- box 2 -->
-        <div class="relative grid grid-cols-5 justify-items-center place-items-center gap-4">
+        <div class="relative grid grid-cols-1 md:grid-cols-5 justify-items-center place-items-center gap-4">
             <!-- left box -->
             <div class="col-span-2">
                 <div class="flex flex-col items-center justify-center gap-3 rounded-lg">
@@ -87,8 +89,8 @@
                 <div class="relative bg-[#04071D] w-full rounded-lg">
                     <div class="flex flex-row p-3">
                         <div class="relative flex flex-col items-center justify-center">
-                            <p class="textbase">The Inside Scoop</p>
-                            <h3 class="font-sans font-bold text-[32px] text-center">Currently building a
+                            <p class="text-base">The Inside Scoop</p>
+                            <h3 class="font-sans font-bold md:text-[32px] text-center">Currently building a
                                 JS Animation library</h3>
                         </div>
                         <div class="relative">

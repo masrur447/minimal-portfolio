@@ -6,5 +6,6 @@
         <Header />
         <Hero />
         <Portfolio />
+        <Project />
     </div>
 </template>

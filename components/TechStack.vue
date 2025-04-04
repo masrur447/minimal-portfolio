@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex items-center justify-stretch bg-[#04071D] h-full rounded-xl p-5 border border-[#181f5e]">
+    <div class="relative flex items-center justify-stretch bg-[#04071D] h-full rounded-xl p-5">
         <div class="w-1/3 h-full flex flex-col justify-center items-center">
             <h2 class="font-sans text-sm leading-relaxed">
                 I constantly try to improve

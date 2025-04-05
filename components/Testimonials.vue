@@ -22,5 +22,7 @@
                 </Slide>
             </Carousel>
         </div>
+        <!-- logos -->
+        <Logos />
     </section>
 </template>

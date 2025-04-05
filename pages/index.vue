@@ -9,5 +9,6 @@
         <Project />
         <Testimonials />
         <Experience />
+        <Footer />
     </div>
 </template>

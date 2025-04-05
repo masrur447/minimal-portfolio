@@ -5,7 +5,7 @@
         </h4>
         <!-- testimonials -->
         <div class="relative gap-4 py-10">
-            <Carousel :gap="20" snap-align="center" :items-to-show="1" :items-to-scroll="1" :wrap-around="true"
+            <LazyCarousel :gap="20" snap-align="center" :items-to-show="1" :items-to-scroll="1" :wrap-around="true"
                 :autoplay="3000" :pause-autoplay-on-hover="true" :mouse-drag="true" :touch-drag="true"
                 :mouse-wheel="{ threshold: 20 }" :transition="500" :breakpoints="{
                     700: {
@@ -17,12 +17,12 @@
                         snapAlign: 'center',
                     },
                 }">
-                <Slide v-for="slide in 10" :key="slide">
-                    <CarouselItem />
-                </Slide>
-            </Carousel>
+                <LazySlide v-for="slide in 10" :key="slide">
+                    <LazyCarouselItem />
+                </LazySlide>
+            </LazyCarousel>
         </div>
         <!-- logos -->
-        <Logos />
+        <LazyLogos />
     </section>
 </template>

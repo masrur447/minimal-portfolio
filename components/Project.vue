@@ -50,7 +50,7 @@ const projects = ref<Project[]>([
 
         <!-- project card -->
         <div class="relative grid grid-cols-1 md:grid-cols-2 gap-4 py-10">
-            <ProjectCard :projects="projects" />
+            <LazyProjectCard :projects="projects" />
         </div>
     </section>
 </template>

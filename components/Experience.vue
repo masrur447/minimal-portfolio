@@ -40,7 +40,7 @@ const experiences = ref(<Experience[]>[
         </h4>
         <!-- experience card -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-36 mt-10">
-            <ExperienceCard v-for="(experience, index) in experiences" :key="index" :title="experience.title"
+            <LazyExperienceCard v-for="(experience, index) in experiences" :key="index" :title="experience.title"
                 :description="experience.description" :image="experience.image" />
         </div>
     </section>

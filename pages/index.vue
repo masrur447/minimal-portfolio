@@ -3,12 +3,12 @@
 
 <template>
     <div class="container">
-        <Header />
-        <Hero />
-        <Portfolio />
-        <Project />
-        <Testimonials />
-        <Experience />
-        <Footer />
+        <LazyHeader />
+        <LazyHero />
+        <LazyPortfolio />
+        <LazyProject />
+        <LazyTestimonials />
+        <LazyExperience />
+        <LazyFooter />
     </div>
 </template>

@@ -32,7 +32,7 @@ const menus: Menu[] = [
         class="fixed top-5 bg-gradient-to-r from-[#0C0E23] to-[#04071D] text-white py-4 px-6 rounded-md inline-block border border-[#1D2029] z-50">
         <ul class="flex justify-center space-x-8 py-4">
             <li v-for="(menu, index) in menus" :key="index" class="font-sans font-medium text-base">
-                <NuxtLink :href="menu.href">{{ menu.title }}</NuxtLink>
+                <LazyNuxtLink :href="menu.href">{{ menu.title }}</LazyNuxtLink>
             </li>
         </ul>
     </nav>

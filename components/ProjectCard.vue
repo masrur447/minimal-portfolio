@@ -44,11 +44,11 @@ defineProps({
                         <img src="/assets/icons/three-js.svg" class="size-full object-cover" alt="" />
                     </button>
                 </div>
-                <NuxtLink :to="project.link"
+                <LazyNuxtLink :to="project.link"
                     class="font-medium text-base md:text-xl tracking-[-.48px] text-[#CBACF9] flex items-center justify-center rounded-full mr-2 hover:text-[#A78BFA] transition duration-300 ease-in-out">
                     Check Live Site
                     <Icon name="ph:arrow-up-bold" class="inline-block rotate-45" />
-                </NuxtLink>
+                </LazyNuxtLink>
             </div>
         </div>
     </div>

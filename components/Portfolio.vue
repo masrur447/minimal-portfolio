@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <!-- my tech stack -->
-                <TechStack />
+                <LazyTechStack />
             </div>
         </div>
         <!-- box 2 -->

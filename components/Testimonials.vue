@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-primary p-4">
+    <section class="bg-primary p-4" id="testimonials">
         <h4 class="text-center font-sans font-bold text-3xl md:text-5xl leading-normal">
             Kind words from <span class="text-[#CBACF9]">satisfied clients</span>
         </h4>

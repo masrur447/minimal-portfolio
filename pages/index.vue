@@ -8,5 +8,6 @@
         <Portfolio />
         <Project />
         <Testimonials />
+        <Experience />
     </div>
 </template>

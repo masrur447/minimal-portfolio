@@ -7,5 +7,6 @@
         <Hero />
         <Portfolio />
         <Project />
+        <Testimonials />
     </div>
 </template>

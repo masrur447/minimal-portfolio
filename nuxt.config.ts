@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "vue3-carousel-nuxt"],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     exposeConfig: true,

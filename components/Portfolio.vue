@@ -19,15 +19,16 @@
                 </div>
             </div>
             <div class="md:col-span-2 flex flex-col gap-y-4">
+                <!-- flexible time -->
                 <div class="relative flex flex-col justify-center items-center rounded-xl">
                     <div
                         class="w-full md:w-[600px] bg-[url('/bg/box.png')] bg-cover bg-center bg-no-repeat z-[1] rounded-xl p-4">
-                        <div class="relative z-[2] h-full py-3">
-                            <p class="font-sans font-bold text-3xl px-4 py-5 leading-snug tracking-wide">
+                        <div class="relative z-[2] h-full py-5">
+                            <p class="font-sans font-bold text-base md:text-3xl px-4 py-6 leading-snug tracking-wide">
                                 I’m very flexible with time <br />
                                 zone communications
                             </p>
-                            <div class="flex items-center justify-between my-5">
+                            <div class="flex items-center justify-between space-y-2 py-5">
                                 <button
                                     class="border border-[#181f5e] backdrop-filter bg-gradient-to-tr to-[#161A31]/10 from-[#06091F]/10 text-white font-sans py-2.5 px-5 rounded-lg">
                                     USA
@@ -87,7 +88,7 @@
             <!-- right box -->
             <div class="col-span-3">
                 <div class="relative bg-[#04071D] w-full rounded-lg">
-                    <div class="flex flex-row p-3">
+                    <div class="flex flex-col md:flex-row p-3">
                         <div class="relative flex flex-col items-center justify-center">
                             <p class="text-base">The Inside Scoop</p>
                             <h3 class="font-sans font-bold md:text-[32px] text-center">Currently building a

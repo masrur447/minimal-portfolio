@@ -23,13 +23,13 @@ defineProps({
             <div class="absolute inset-0 top-0 left-0 bg-[url('/project/bg.png')] bg-cover opacity-65"></div>
         </div>
         <div class="relative py-3">
-            <h4 class="font-bold text-[32px] leading-9">
+            <h4 class="font-bold text-lg line-clamp-1 md:text-[32px] md:leading-9">
                 {{ project.title }}
             </h4>
-            <p class="text-xl line-clamp-2 py-2">
+            <p class="text-sm md:text-xl line-clamp-2 py-2">
                 {{ project.description }}
             </p>
-            <div class="flex justify-between py-2">
+            <div class="flex flex-col items-center justify-center md:justify-between space-y-2 md:space-y-0 py-2">
                 <div class="flex">
                     <button class="flex items-center justify-center w-10 h-10 rounded-full bg-[#13162D] mr-2">
                         <img src="/assets/icons/react.svg" class="size-full object-cover" alt="" />
@@ -45,7 +45,7 @@ defineProps({
                     </button>
                 </div>
                 <NuxtLink :to="project.link"
-                    class="font-medium text-xl tracking-[-.48px] text-[#CBACF9] flex items-center justify-center rounded-full mr-2 hover:text-[#A78BFA] transition duration-300 ease-in-out">
+                    class="font-medium text-base md:text-xl tracking-[-.48px] text-[#CBACF9] flex items-center justify-center rounded-full mr-2 hover:text-[#A78BFA] transition duration-300 ease-in-out">
                     Check Live Site
                     <Icon name="ph:arrow-up-bold" class="inline-block rotate-45" />
                 </NuxtLink>

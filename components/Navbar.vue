@@ -9,7 +9,7 @@ interface Menu {
 const menus: Menu[] = [
     {
         title: 'Home',
-        href: '#home'
+        href: '/'
     },
     {
         title: 'Projects',
@@ -47,7 +47,8 @@ watchEffect(() => {
     <nav
         class="scroll-navbar w-full fixed top-0 bg-gradient-to-r from-[#0C0E23] to-[#04071D] text-white py-4 px-4 md:px-6 rounded-md inline-block border border-[#1D2029] z-50">
         <ul class="flex justify-center space-x-4 md:space-x-8 py-4">
-            <li v-for="(menu, index) in menus" :key="index" class="font-sans font-medium text-base">
+            <li v-for="(menu, index) in menus" :key="index"
+                class="font-sans font-medium text-base hover:text-[#CBACF9] transition-all duration-300 ease-in-out">
                 <LazyNuxtLink :href="menu.href">{{ menu.title }}</LazyNuxtLink>
             </li>
         </ul>
@@ -60,6 +61,7 @@ watchEffect(() => {
 }
 
 .scroll-navbar.scrolled {
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px) !important;
 }
 </style>

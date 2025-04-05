@@ -6,7 +6,19 @@
 
 @layer base {
     * {
-        @apply font-sans scroll-smooth box-border
+        @apply font-sans scroll-smooth box-border snap-mandatory;
+        scrollbar-width: thin;
+        scrollbar-color: #CBACF9 transparent;
+        scroll-snap-type: mandatory;
+        scroll-snap-align: start;
+        scrollbar-3dlight-color: #CBACF9;
+        scrollbar-highlight-color: #CBACF9;
+        scrollbar-face-color: #CBACF9;
+        scrollbar-track-color: transparent;
+        scrollbar-arrow-color: #CBACF9;
+        scrollbar-shadow-color: #CBACF9;
+        scrollbar-darkshadow-color: #CBACF9;
+        scrollbar-gutter: stable;
     }
 }
 

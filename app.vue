@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout>
+  <LazyNuxtLayout>
+    <div class="scrollbar"></div>
     <NuxtPage />
-  </NuxtLayout>
+  </LazyNuxtLayout>
 </template>

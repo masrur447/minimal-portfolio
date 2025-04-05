@@ -9,3 +9,17 @@
         @apply font-sans scroll-smooth box-border
     }
 }
+
+@layer components {
+    .scrollbar {
+        @apply w-full h-1 bg-rose-400 fixed top-0 scale-0 origin-left ease-linear duration-100 z-[999] pointer-events-none;
+        animation-name: scrollbar;
+        animation-timeline: scroll();
+    }
+
+    @keyframes scrollbar {
+        to {
+            @apply scale-100;
+        }
+    }
+}

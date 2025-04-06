@@ -6,9 +6,36 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "fade", mode: "out-in" },
     head: {
+      title: "Eyaheya Masrur - Portfolio",
+      titleTemplate: "%s - Eyaheya Masrur",
+      htmlAttrs: {
+        lang: "en",
+        dir: "ltr",
+      },
       bodyAttrs: {
         class: "bg-primary font-sans font-base text-white antialiased",
       },
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { charset: "utf-8" },
+        {
+          name: "description",
+          content:
+            "I'm Eyaheya Masrur a Next/Nuxt.JS Developerv and Laravel Developer based in Bangladesh.",
+        },
+        { name: "author", content: "Eyaheya Masrur" },
+        { name: "keywords", content: "Eyaheya Masrur, Portfolio" },
+        { name: "robots", content: "noindex, nofollow" },
+        {
+          property: "og:title",
+          content: "Eyaheya Masrur - Portfolio",
+        },
+        {
+          property: "og:description",
+          content:
+            "I'm Eyaheya Masrur a Next/Nuxt.JS Developerv and Laravel Developer based in Bangladesh.",
+        },
+      ],
     },
   },
   vite: {

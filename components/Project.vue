@@ -14,7 +14,7 @@ const projects = ref<Project[]>([
         title: "Student Management System",
         description:
             "Manage student records, grades, and attendance efficiently with this comprehensive system.",
-        image: "/project/emschool.png",
+        image: "/project/emschool.webp",
         link: "#",
         icons: [
             "logos:laravel",
@@ -28,7 +28,7 @@ const projects = ref<Project[]>([
         title: "Academic Website",
         description:
             "A modern academic website with a clean design and user-friendly interface.",
-        image: "/project/academy.png",
+        image: "/project/academy.webp",
         link: "https://academy-one-flame.vercel.app/",
         icons: ["logos:react", "logos:tailwindcss-icon"],
     },
@@ -37,7 +37,7 @@ const projects = ref<Project[]>([
         title: "Modern Blog Website",
         description:
             "A modern blog website with a clean design and user-friendly interface.",
-        image: "/project/tail-news.png",
+        image: "/project/tail-news.webp",
         link: "https://tail-news.vercel.app",
         icons: ["logos:react", "logos:tailwindcss-icon"],
     },
@@ -46,7 +46,7 @@ const projects = ref<Project[]>([
         title: "Tutors - Online Tutoring Platform",
         description:
             "An online platform connecting students with tutors for personalized learning.",
-        image: "/project/tutors.png",
+        image: "/project/tutors.webp",
         link: "https://tutors-silk.vercel.app",
         icons: [
             "logos:react",

@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-primary text-white p-5 bg-[url('/bg/pattern.png')] bg-cover bg-center bg-no-repeat" id="contact">
+    <footer class="bg-primary text-white p-5 bg-[url('/bg/pattern.webp')] bg-cover bg-center bg-no-repeat" id="contact">
         <div class="relative flex flex-col items-center justify-center py-20 md:py-32">
             <p
                 class="text-center font-bold text-4xl md:text-5xl leading-[-2px] text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">

@@ -16,7 +16,7 @@ defineProps({
         <div class="bg-[#13162D] p-6 pb-0 rounded-lg">
             <img :src="image" alt="project-{{ id }}" class="w-full h-full object-cover rounded-lg" />
             <!-- overly image -->
-            <div class="absolute inset-0 top-0 left-0 bg-[url('/project/bg.png')] bg-cover opacity-65"></div>
+            <div class="absolute inset-0 top-0 left-0 bg-[url('/project/bg.webp')] bg-cover opacity-65"></div>
         </div>
         <div class="relative py-3">
             <h4 class="font-bold text-lg line-clamp-1 md:text-[32px] md:leading-9">

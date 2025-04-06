@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-5 justify-items-center place-items-center gap-4">
             <div class="md:col-span-3">
                 <div class="relative border border-primary rounded-lg overflow-hidden">
-                    <LazyNuxtImg format="webp,jpeg,png" src="/bg/img-1.png" alt="project"
+                    <LazyNuxtImg format="webp,jpeg,png" src="/bg/img-1.webp" alt="project"
                         class="w-full h-full object-cover rounded-lg" />
 
                     <!-- project title -->
@@ -23,7 +23,7 @@
                 <!-- flexible time -->
                 <div class="relative flex flex-col justify-center items-center rounded-xl">
                     <div
-                        class="w-full md:w-[600px] bg-[url('/bg/box.png')] bg-cover bg-center bg-no-repeat z-[1] rounded-xl p-4">
+                        class="w-full md:w-[600px] bg-[url('/bg/box.webp')] bg-cover bg-center bg-no-repeat z-[1] rounded-xl p-4">
                         <div class="relative z-[2] h-full py-5">
                             <p class="font-sans font-bold text-base md:text-3xl px-4 py-6 leading-snug tracking-wide">
                                 I’m very flexible with time <br />
@@ -66,7 +66,7 @@
                             development.</p>
                         <div
                             class="absolute inset-0 bg-gradient-to-tr from-black/75 via-white/10 to-black/55 opacity-100 rounded-xl z-[1]">
-                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/section-input.png"
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/section-input.webp"
                                 class="absolute right-0 bottom-0" title="input" />
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                             Copy my email address
                         </button>
                         <div class="z-[1]">
-                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/backgroundblobservicepng.png"
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/backgroundblobservicepng.webp"
                                 class="absolute left-0 bottom-0 rounded-lg" title="background" />
                         </div>
                     </div>
@@ -98,13 +98,13 @@
                                 JS Animation library</h3>
                         </div>
                         <div class="relative">
-                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/code.png"
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/code.webp"
                                 class="size-full object-cover rounded-lg" title="code" />
                         </div>
                     </div>
                     <!-- overly image -->
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg z-[1]">
-                        <LazyNuxtImg format="webp,jpeg,png" src="/bg/code-bg.png" class="size-full object-contain"
+                        <LazyNuxtImg format="webp,jpeg,png" src="/bg/code-bg.webp" class="size-full object-contain"
                             title="code" />
                     </div>
                 </div>

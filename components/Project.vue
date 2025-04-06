@@ -1,46 +1,60 @@
 <script setup lang="ts">
-
 interface Project {
-    id: number
-    title: string
-    description: string
-    image: string
-    link: string
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+    link: string;
+    icons: Array<string>;
 }
 
 const projects = ref<Project[]>([
     {
         id: 1,
-        title: '3D Solar System Planets to Explore',
-        description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-        image: '/project/img-1.png',
-        link: '#'
+        title: "Student Management System",
+        description:
+            "Manage student records, grades, and attendance efficiently with this comprehensive system.",
+        image: "/project/emschool.png",
+        link: "#",
+        icons: [
+            "logos:laravel",
+            "logos:vue",
+            "logos:tailwindcss-icon",
+            "logos:php",
+        ],
     },
     {
         id: 2,
-        title: 'Yoom - Video Conferencing App',
-        description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-        image: '/project/img-2.png',
-        link: '#'
+        title: "Academic Website",
+        description:
+            "A modern academic website with a clean design and user-friendly interface.",
+        image: "/project/academy.png",
+        link: "https://academy-one-flame.vercel.app/",
+        icons: ["logos:react", "logos:tailwindcss-icon"],
     },
     {
-        id: 2,
-        title: 'AI Image SaaS - Canva Application',
-        description: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-        image: '/project/img-3.png',
-        link: '#'
+        id: 3,
+        title: "Modern Blog Website",
+        description:
+            "A modern blog website with a clean design and user-friendly interface.",
+        image: "/project/tail-news.png",
+        link: "https://tail-news.vercel.app",
+        icons: ["logos:react", "logos:tailwindcss-icon"],
     },
     {
-        id: 2,
-        title: 'Animated Apple Iphone 3D Website',
-        description: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.',
-        image: '/project/img-4.png',
-        link: '#'
-    },
-])
-
+        id: 4,
+        title: "Tutors - Online Tutoring Platform",
+        description:
+            "An online platform connecting students with tutors for personalized learning.",
+        image: "/project/tutors.png",
+        link: "https://tutors-silk.vercel.app",
+        icons: [
+            "logos:react",
+            "logos:tailwindcss-icon"
+        ],
+    }
+]);
 </script>
-
 
 <template>
     <section class="py-8" id="projects">
@@ -50,7 +64,8 @@ const projects = ref<Project[]>([
 
         <!-- project card -->
         <div class="relative grid grid-cols-1 md:grid-cols-2 gap-4 py-10">
-            <LazyProjectCard :projects="projects" />
+            <LazyProjectCard v-for="project in projects" :key="project.id" :id="project.id" :title="project.title"
+                :description="project.description" :image="project.image" :link="project.link" :icons="project.icons" />
         </div>
     </section>
 </template>

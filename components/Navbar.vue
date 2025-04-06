@@ -49,7 +49,7 @@ watchEffect(() => {
         <ul class="flex justify-center space-x-4 md:space-x-8 py-4">
             <li v-for="(menu, index) in menus" :key="index"
                 class="font-sans font-medium text-base hover:text-[#CBACF9] transition-all duration-300 ease-in-out">
-                <LazyNuxtLink :href="menu.href">{{ menu.title }}</LazyNuxtLink>
+                <LazyNuxtLink :href="menu.href" :title="menu.title">{{ menu.title }}</LazyNuxtLink>
             </li>
         </ul>
     </nav>

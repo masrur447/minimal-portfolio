@@ -10,7 +10,8 @@ defineProps({
     <div class="flex flex-col items-center justify-center bg-[#00042D] p-8 rounded-lg">
         <div class="relative flex flex-col md:flex-row items-center justify-start gap-4">
             <div class="avatar w-[94] h-[87] overflow-hidden">
-                <img :src="image" alt="Experience" class="object-cover rounded-lg" />
+                <LazyNuxtImg format="webp,jpeg,png" :src="image" alt="Experience" class="object-cover rounded-lg"
+                    :title="title" />
             </div>
             <div class="experience-details mt-4">
                 <h5 class="text-[26px] font-bold">{{ title }}</h5>

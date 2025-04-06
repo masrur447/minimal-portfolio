@@ -9,7 +9,15 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "vue3-carousel-nuxt"],
+  nitro: {
+    preset: "vercel-edge",
+  },
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
+    "vue3-carousel-nuxt",
+    "@nuxt/image",
+  ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     exposeConfig: true,

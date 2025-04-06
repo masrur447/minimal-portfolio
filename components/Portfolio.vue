@@ -3,7 +3,8 @@
         <div class="grid grid-cols-1 md:grid-cols-5 justify-items-center place-items-center gap-4">
             <div class="md:col-span-3">
                 <div class="relative border border-primary rounded-lg overflow-hidden">
-                    <img src="/bg/img-1.png" alt="project" class="w-full h-full object-cover rounded-lg" />
+                    <LazyNuxtImg format="webp,jpeg,png" src="/bg/img-1.png" alt="project"
+                        class="w-full h-full object-cover rounded-lg" />
 
                     <!-- project title -->
                     <h2
@@ -65,7 +66,8 @@
                             development.</p>
                         <div
                             class="absolute inset-0 bg-gradient-to-tr from-black/75 via-white/10 to-black/55 opacity-100 rounded-xl z-[1]">
-                            <img src="/bg/section-input.png" class="absolute right-0 bottom-0">
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/section-input.png"
+                                class="absolute right-0 bottom-0" title="input" />
                         </div>
                     </div>
                     <!-- box 2 -->
@@ -76,11 +78,12 @@
                             together?</p>
                         <button
                             class="flex items-center justify-center gap-x-1.5 text-sm font-sans text-white bg-[#181f5e] py-2 px-4 rounded-lg mt-3 cursor-pointer z-[2]">
-                            <Icon name="ph:copy-thin" class="inline-block" />
+                            <LazyIcon name="ph:copy-thin" class="inline-block" />
                             Copy my email address
                         </button>
                         <div class="z-[1]">
-                            <img src="/bg/backgroundblobservicepng.png" class="absolute left-0 bottom-0 rounded-lg">
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/backgroundblobservicepng.png"
+                                class="absolute left-0 bottom-0 rounded-lg" title="background" />
                         </div>
                     </div>
                 </div>
@@ -95,12 +98,14 @@
                                 JS Animation library</h3>
                         </div>
                         <div class="relative">
-                            <img src="/bg/code.png" class="size-full object-cover rounded-lg">
+                            <LazyNuxtImg format="webp,jpeg,png" src="/bg/code.png"
+                                class="size-full object-cover rounded-lg" title="code" />
                         </div>
                     </div>
                     <!-- overly image -->
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg z-[1]">
-                        <img src="/bg/code-bg.png" class="size-full object-contain">
+                        <LazyNuxtImg format="webp,jpeg,png" src="/bg/code-bg.png" class="size-full object-contain"
+                            title="code" />
                     </div>
                 </div>
             </div>

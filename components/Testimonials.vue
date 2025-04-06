@@ -1,8 +1,8 @@
 <template>
     <section class="bg-primary p-4" id="testimonials">
-        <h4 class="text-center font-sans font-bold text-3xl md:text-5xl leading-normal">
+        <h5 class="text-center font-sans font-bold text-3xl md:text-5xl leading-normal">
             Kind words from <span class="text-[#CBACF9]">satisfied clients</span>
-        </h4>
+        </h5>
         <!-- testimonials -->
         <div class="relative gap-4 py-10">
             <LazyCarousel :gap="20" snap-align="center" :items-to-show="1" :items-to-scroll="1" :wrap-around="true"

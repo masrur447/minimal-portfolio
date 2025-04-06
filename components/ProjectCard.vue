@@ -34,7 +34,7 @@ defineProps({
                     class="font-medium text-base md:text-xl tracking-[-.48px] text-[#CBACF9] flex items-center justify-center rounded-full mr-2 hover:text-[#A78BFA] transition duration-300 ease-in-out"
                     target="_blank">
                     Check Live Site
-                    <Icon name="ph:arrow-up-bold" class="inline-block rotate-45" />
+                    <LazyIcon name="ph:arrow-up-bold" class="inline-block rotate-45" />
                 </a>
             </div>
         </div>

@@ -14,7 +14,7 @@
             <button
                 class="border border-[#CBACF9] bg-[#CBACF9]/[10%] text-white font-sans font-bold text-base/[120%] py-4 px-8 rounded-md hover:bg-transparent hover:text-[#CBACF9] transition duration-300 ease-in-out">
                 Contact Now
-                <Icon name="ph:arrow-up-bold" class="inline-block rotate-45" />
+                <LazyIcon name="ph:arrow-up-bold" class="inline-block rotate-45" />
             </button>
         </div>
         <div class="relative flex flex-col items-center justify-center gap-4 md:flex-row md:justify-between mt-10">
@@ -24,16 +24,16 @@
             </div>
             <div class="flex items-center justify-between gap-x-4">
                 <a href="#" target="_blank">
-                    <Icon name="ph:linkedin-logo" class="text-white" />
+                    <LazyIcon name="ph:linkedin-logo" class="text-white" />
                 </a>
                 <a href="https://github.com/masrur447" target="_blank">
-                    <Icon name="ph:github-logo" class="text-white" />
+                    <LazyIcon name="ph:github-logo" class="text-white" />
                 </a>
                 <a href="#" target="_blank">
-                    <Icon name="ph:twitter-logo" class="text-white" />
+                    <LazyIcon name="ph:twitter-logo" class="text-white" />
                 </a>
                 <a href="https://www.facebook.com/eyaheya.masrur" target="_blank">
-                    <Icon name="ph:facebook-logo" class="text-white" />
+                    <LazyIcon name="ph:facebook-logo" class="text-white" />
                 </a>
             </div>
         </div>

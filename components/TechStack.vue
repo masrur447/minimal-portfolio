@@ -2,9 +2,9 @@
     <div
         class="relative flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-center bg-[#04071D] h-full rounded-xl p-5">
         <div class="w-full md:w-1/3 h-full flex flex-col justify-center items-center">
-            <h2 class="font-sans text-sm leading-relaxed">
+            <h4 class="font-sans text-sm leading-relaxed">
                 I constantly try to improve
-            </h2>
+            </h4>
             <h3 class="font-sans text-[32px] whitespace-nowrap">My tech stack</h3>
         </div>
         <!-- tech -->

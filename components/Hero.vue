@@ -4,12 +4,17 @@
             class="text-center text-[#E4ECFF] font-sans font-medium text-sm md:text-base/[120%] uppercase tracking-[4px] py-4">
             Dynamic Web Magic with Nuxt.js
         </p>
-        <h1 class="font-sans font-bold text-3xl/[120%] md:text-7xl text-center">
+        <h1 class="hidden md:block font-sans font-bold text-3xl md:text-7xl text-center leading-[1.2]">
             Transforming Concepts into
             <br />
             Seamless <span class="text-[#CBACF9]">User Experiences</span>
         </h1>
-        <h2 class="text-center font-sans md:text-2xl/[120%] font-normal space-x-2 capitalize py-5">
+        <!-- mobile -->
+        <h1 class="md:hidden font-sans font-bold text-3xl md:text-7xl text-center leading-[1.2]">
+            Transforming Concepts into Seamless <span class="text-[#CBACF9]">User Experiences</span>
+        </h1>
+        <!-- desktop -->
+        <h2 class="hidden md:block text-center font-sans md:text-2xl/[120%] font-normal space-x-2 capitalize py-5">
             Hi! I’m Eyaheya Masrur, a
             <span class="relative text-transparent inline-block animate-text" style="--i: 1"
                 data-text="Next/Nuxt.JS Developer">Next/Nuxt.JS Developer</span>
@@ -19,6 +24,20 @@
                 data-text="React Developer">React Developer</span>
             <span class="relative text-transparent inline-block animate-text" style="--i: 4"
                 data-text="Laravel Developer">Laravel Developer</span>
+            based in Bangladesh.
+        </h2>
+        <!-- mobile -->
+        <h2 class="md:hidden text-center font-sans text-xl font-normal space-x-2 capitalize py-5">
+            Hi! I’m Eyaheya Masrur, <br /> a
+            <span class="relative text-transparent inline-block animate-text" style="--i: 1"
+                data-text="Next/Nuxt.JS Developer">Next/Nuxt.JS Developer</span>
+            <span class="relative text-transparent inline-block animate-text" style="--i: 2"
+                data-text="Vue Developer">Vue Developer</span>
+            <span class="relative text-transparent inline-block animate-text" style="--i: 3"
+                data-text="React Developer">React Developer</span>
+            <span class="relative text-transparent inline-block animate-text" style="--i: 4"
+                data-text="Laravel Developer">Laravel Developer</span>
+            <br />
             based in Bangladesh.
         </h2>
         <button

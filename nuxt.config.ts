@@ -53,7 +53,6 @@ export default defineNuxtConfig({
     "vue3-carousel-nuxt",
     "@nuxt/image",
     "@nuxtjs/seo",
-    "nuxt-delay-hydration",
   ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",

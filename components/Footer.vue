@@ -23,16 +23,16 @@
                 <p class="text-start text-sm">Copyright &copy; 2025 Eyaheya Masrur</p>
             </div>
             <div class="flex items-center justify-between gap-x-4">
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" title="LinkedIn">
                     <LazyIcon name="ph:linkedin-logo" class="text-white" />
                 </a>
-                <a href="https://github.com/masrur447" target="_blank">
+                <a href="https://github.com/masrur447" target="_blank" title="GitHub">
                     <LazyIcon name="ph:github-logo" class="text-white" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" title="Twitter">
                     <LazyIcon name="ph:twitter-logo" class="text-white" />
                 </a>
-                <a href="https://www.facebook.com/eyaheya.masrur" target="_blank">
+                <a href="https://www.facebook.com/eyaheya.masrur" target="_blank" title="Facebook">
                     <LazyIcon name="ph:facebook-logo" class="text-white" />
                 </a>
             </div>

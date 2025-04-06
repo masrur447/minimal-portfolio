@@ -4,13 +4,21 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   app: {
+    pageTransition: { name: "fade", mode: "out-in" },
     head: {
       bodyAttrs: {
         class: "bg-primary font-sans font-base text-white antialiased",
       },
     },
   },
+  vite: {
+    build: {
+      minify: "esbuild", // Faster minification
+    },
+  },
+
   nitro: {
+    compressPublicAssets: true,
     preset: "vercel-edge",
   },
   modules: [

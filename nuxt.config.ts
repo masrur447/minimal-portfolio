@@ -25,7 +25,6 @@ export default defineNuxtConfig({
         },
         { name: "author", content: "Eyaheya Masrur" },
         { name: "keywords", content: "Eyaheya Masrur, Portfolio" },
-        { name: "robots", content: "noindex, nofollow" },
         {
           property: "og:title",
           content: "Eyaheya Masrur - Portfolio",
@@ -46,17 +45,21 @@ export default defineNuxtConfig({
 
   nitro: {
     compressPublicAssets: true,
-    preset: "vercel-edge",
+    preset: "vercelStatic",
   },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
     "vue3-carousel-nuxt",
     "@nuxt/image",
+    "@nuxtjs/seo",
   ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     exposeConfig: true,
     viewer: true,
+  },
+  ogImage: {
+    enabled: false,
   },
 });

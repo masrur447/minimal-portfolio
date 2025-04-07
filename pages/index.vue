@@ -3,12 +3,12 @@
 
 <template>
     <div class="container" id="app">
-        <LazyHeader />
+        <Header />
         <LazyHero />
         <LazyPortfolio />
         <LazyProject />
         <LazyTestimonials />
         <LazyExperience />
-        <LazyFooter />
+        <Footer />
     </div>
 </template>

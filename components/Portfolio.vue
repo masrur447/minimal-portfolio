@@ -4,7 +4,7 @@
             <div class="md:col-span-3">
                 <div class="relative border border-primary rounded-lg overflow-hidden">
                     <LazyNuxtImg format="webp,jpeg,png" src="/bg/img-1.webp" alt="project"
-                        class="w-full h-full object-cover rounded-lg" />
+                        class="w-full h-full object-cover rounded-lg" priority />
 
                     <!-- project title -->
                     <h2

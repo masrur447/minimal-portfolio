@@ -62,13 +62,7 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
     preset: "vercelStatic",
   },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "vue3-carousel-nuxt",
-    "@nuxt/image",
-    "@nuxtjs/seo",
-    "nuxt-booster",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "vue3-carousel-nuxt", "@nuxt/image", "@nuxtjs/seo"],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     exposeConfig: true,
@@ -79,23 +73,5 @@ export default defineNuxtConfig({
   },
   schemaOrg: {
     enabled: false,
-  },
-  booster: {
-    detection: {
-      performance: true,
-      browserSupport: true,
-    },
-
-    performanceMetrics: {
-      device: {
-        hardwareConcurrency: { min: 2, max: 48 },
-        deviceMemory: { min: 2 },
-      },
-      timing: {
-        fcp: 800,
-        dcl: 1200,
-      },
-    },
-    targetFormats: ["webp", "avif", "jpg|jpeg|png|gif"],
   },
 });

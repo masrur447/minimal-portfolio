@@ -43,7 +43,7 @@
         <button
             class="border border-[#CBACF9] bg-[#CBACF9]/[10%] text-white font-sans font-bold text-base/[120%] py-4 px-8 rounded-md hover:bg-transparent hover:text-[#CBACF9] transition duration-300 ease-in-out">
             See My Work
-            <LazyIcon name="ph:arrow-up-bold" class="inline-block rotate-45" />
+            <i class="fa-solid fa-arrow-right nline-block -rotate-45"></i>
         </button>
     </section>
 </template>

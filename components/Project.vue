@@ -17,10 +17,10 @@ const projects = ref<Project[]>([
         image: "/project/emschool.webp",
         link: "#",
         icons: [
-            "logos:laravel",
-            "logos:vue",
-            "logos:tailwindcss-icon",
-            "logos:php",
+            "fa-brands fa-laravel fa-lg text-[#FF2D20]",
+            "fa-brands fa-vuejs fa-lg text-[#42b883]",
+            "nline-block w-6 h-6 bg-[url('https://www.svgrepo.com/show/374118/tailwind.svg')] bg-contain bg-no-repeat",
+            "fa-brands fa-php fa-lg text-[#8892BF]",
         ],
     },
     {
@@ -30,7 +30,10 @@ const projects = ref<Project[]>([
             "A modern academic website with a clean design and user-friendly interface.",
         image: "/project/academy.webp",
         link: "https://academy-one-flame.vercel.app/",
-        icons: ["logos:react", "logos:tailwindcss-icon"],
+        icons: [
+            "fa-brands fa-react fa-lg text-[#61DAFB]",
+            "nline-block w-6 h-6 bg-[url('https://www.svgrepo.com/show/374118/tailwind.svg')] bg-contain bg-no-repeat",
+        ],
     },
     {
         id: 3,
@@ -39,7 +42,10 @@ const projects = ref<Project[]>([
             "A modern blog website with a clean design and user-friendly interface.",
         image: "/project/tail-news.webp",
         link: "https://tail-news.vercel.app",
-        icons: ["logos:react", "logos:tailwindcss-icon"],
+        icons: [
+            "fa-brands fa-react fa-lg text-[#61DAFB]",
+            "nline-block w-6 h-6 bg-[url('https://www.svgrepo.com/show/374118/tailwind.svg')] bg-contain bg-no-repeat",
+        ],
     },
     {
         id: 4,
@@ -49,8 +55,8 @@ const projects = ref<Project[]>([
         image: "/project/tutors.webp",
         link: "https://tutors-silk.vercel.app",
         icons: [
-            "logos:react",
-            "logos:tailwindcss-icon"
+            "fa-brands fa-react fa-lg text-[#61DAFB]",
+            "nline-block w-6 h-6 bg-[url('https://www.svgrepo.com/show/374118/tailwind.svg')] bg-contain bg-no-repeat",
         ],
     }
 ]);

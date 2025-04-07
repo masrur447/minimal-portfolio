@@ -46,6 +46,10 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Inter&display=swap",
         },
+        {
+          rel: "stylesheet",
+          href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
+        },
       ],
     },
   },
@@ -61,7 +65,6 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@nuxt/icon",
     "vue3-carousel-nuxt",
     "@nuxt/image",
     "@nuxtjs/seo",
@@ -72,6 +75,9 @@ export default defineNuxtConfig({
     viewer: true,
   },
   ogImage: {
+    enabled: false,
+  },
+  schemaOrg: {
     enabled: false,
   },
 });

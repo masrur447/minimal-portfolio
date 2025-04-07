@@ -78,7 +78,7 @@
                             together?</p>
                         <button
                             class="flex items-center justify-center gap-x-1.5 text-sm font-sans text-white bg-[#181f5e] py-2 px-4 rounded-lg mt-3 cursor-pointer z-[2]">
-                            <LazyIcon name="ph:copy-thin" class="inline-block" />
+                            <i class="fa-regular fa-copy inline-block"></i>
                             Copy my email address
                         </button>
                         <div class="z-[1]">

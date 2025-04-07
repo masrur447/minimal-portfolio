@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
-  ssr: false,
   devtools: { enabled: process.env.NODE_ENV !== "production" },
   app: {
     pageTransition: { name: "fade", mode: "out-in" },
@@ -68,6 +67,7 @@ export default defineNuxtConfig({
     "vue3-carousel-nuxt",
     "@nuxt/image",
     "@nuxtjs/seo",
+    "nuxt-booster",
   ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
@@ -79,5 +79,23 @@ export default defineNuxtConfig({
   },
   schemaOrg: {
     enabled: false,
+  },
+  booster: {
+    detection: {
+      performance: true,
+      browserSupport: true,
+    },
+
+    performanceMetrics: {
+      device: {
+        hardwareConcurrency: { min: 2, max: 48 },
+        deviceMemory: { min: 2 },
+      },
+      timing: {
+        fcp: 800,
+        dcl: 1200,
+      },
+    },
+    targetFormats: ["webp", "avif", "jpg|jpeg|png|gif"],
   },
 });
